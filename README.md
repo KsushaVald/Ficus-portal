@@ -27,4 +27,4 @@ React application
 Сборка для development: 
 
         - npm run build:dev (результат в папке dist);
-	 - npm run dev (запускает webpack-dev-server).
+	- npm run dev (запускает webpack-dev-server).
