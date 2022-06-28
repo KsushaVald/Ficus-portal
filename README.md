@@ -25,9 +25,9 @@ React application
 
 Сборка для production: 
 
-npm run build:prod (результат в папке dist).
+ - npm run build:prod (результат в папке dist).
 
 Сборка для development: 
 
-npm run build:dev (результат в папке dist);
-npm run dev (запускает webpack-dev-server).
+- npm run build:dev (результат в папке dist);
+- npm run dev (запускает webpack-dev-server).
