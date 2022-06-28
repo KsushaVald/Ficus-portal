@@ -23,8 +23,11 @@ React application
 
 Ссылка на хостинг: http://ficusportal.kvald.tw1.ru/
 
-Сборка для production: npm run build:prod (результат в папке dist).
+Сборка для production: 
+
+npm run build:prod (результат в папке dist).
+
 Сборка для development: 
 
-        - npm run build:dev (результат в папке dist);
-	- npm run dev (запускает webpack-dev-server).
+npm run build:dev (результат в папке dist);
+npm run dev (запускает webpack-dev-server).
