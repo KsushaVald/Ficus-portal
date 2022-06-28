@@ -1,0 +1,128 @@
+.changeFormContainer{
+  width: 100%;
+}
+
+.changeTaskFormText {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--color-main);
+}
+
+.btnStatus {
+  margin-bottom: 10px;
+  padding: 5px;
+  padding-left: 25px;
+  cursor: pointer;
+  background-color: var(--color-none);
+  border: 1px solid var(--color-subtext);
+  border-radius: 10px;
+}
+
+.changeTaskFormSubtext {
+  display: block;
+  font-size: 12px;
+  color: var(--color-subtext)
+}
+
+.btnStatusNo {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-error);
+  background-image: url('data:image/svg+xml;utf8, <svg width="56" height="55" viewBox="0 0 56 55" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M49.6206 48.12H6.37698C5.54337 48.12 4.77309 47.6832 4.35629 46.9741C3.9395 46.2651 3.9395 45.3915 4.35631 44.6825L25.977 8.01582C26.3941 7.30795 27.1637 6.87207 27.9965 6.87207C28.8292 6.87207 29.5988 7.30795 30.016 8.01582L51.6366 44.6825C52.0532 45.3912 52.0535 46.2642 51.6372 46.9731C51.221 47.682 50.4515 48.1191 49.6183 48.12H49.6206ZM25.6666 36.6617V41.245H27.8436H27.9953H28.147H30.3286V36.6617H25.6666ZM25.6666 20.62V32.0783H30.3333V20.62H25.6666Z" fill="%23FF7F50"/></svg>');
+  background-size: 21px 20px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.btnStatusNo:hover {
+ color: var(--color-error-hover);
+ background-image: url('data:image/svg+xml;utf8, <svg width="56" height="55" viewBox="0 0 56 55" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M49.6206 48.12H6.37698C5.54337 48.12 4.77309 47.6832 4.35629 46.9741C3.9395 46.2651 3.9395 45.3915 4.35631 44.6825L25.977 8.01582C26.3941 7.30795 27.1637 6.87207 27.9965 6.87207C28.8292 6.87207 29.5988 7.30795 30.016 8.01582L51.6366 44.6825C52.0532 45.3912 52.0535 46.2642 51.6372 46.9731C51.221 47.682 50.4515 48.1191 49.6183 48.12H49.6206ZM25.6666 36.6617V41.245H27.8436H27.9953H28.147H30.3286V36.6617H25.6666ZM25.6666 20.62V32.0783H30.3333V20.62H25.6666Z" fill="%23fd5011"/></svg>');
+}
+
+.btnStatusNo:active {
+  color: var(--color-error-active);
+  background-image: url('data:image/svg+xml;utf8, <svg width="56" height="55" viewBox="0 0 56 55" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M49.6206 48.12H6.37698C5.54337 48.12 4.77309 47.6832 4.35629 46.9741C3.9395 46.2651 3.9395 45.3915 4.35631 44.6825L25.977 8.01582C26.3941 7.30795 27.1637 6.87207 27.9965 6.87207C28.8292 6.87207 29.5988 7.30795 30.016 8.01582L51.6366 44.6825C52.0532 45.3912 52.0535 46.2642 51.6372 46.9731C51.221 47.682 50.4515 48.1191 49.6183 48.12H49.6206ZM25.6666 36.6617V41.245H27.8436H27.9953H28.147H30.3286V36.6617H25.6666ZM25.6666 20.62V32.0783H30.3333V20.62H25.6666Z" fill="%23b4522f"/></svg>');
+ }
+
+
+ .btnStatusDo {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--color-main);
+  background-image: url('data:image/svg+xml;utf8,<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 32.34L9.65999 24L6.82999 26.83L18 38L42 14L39.17 11.17L18 32.34Z" fill="%2398d7af"/></svg>');
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.btnStatusDo:hover {
+ color: var(--color-main-hover);
+ background-image: url('data:image/svg+xml;utf8,<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 32.34L9.65999 24L6.82999 26.83L18 38L42 14L39.17 11.17L18 32.34Z" fill="%23a7fac5"/></svg>');
+}
+
+.btnStatusDo:active {
+  color: var(--color-main-active);
+  background-image: url('data:image/svg+xml;utf8,<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M18 32.34L9.65999 24L6.82999 26.83L18 38L42 14L39.17 11.17L18 32.34Z" fill="%2383b896"/></svg>');
+ }
+
+
+
+.changeTaskFormStatus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.changeTaskFormSvg {
+  margin-right: 5px;
+}
+
+
+.changeTaskFormSpanNo {
+  max-width: 100px;
+  font-weight: 600;
+  color: var(--color-error);
+  line-height: 14px;
+  transition: color 0.3s ease-in-out;
+}
+
+.changeTaskFormStatusSpanDo {
+  max-width: 100px;
+  font-weight: 600;
+  color: var(--color-main-active);
+  line-height: 14px;
+  transition: color 0.3s ease-in-out;
+}
+
+
+.changeTaskForm {
+  width: 100%;
+}
+
+.changeTaskArea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 100%;
+  font-size: 16px;
+  color: var(--color-black);
+  border: 1px solid var(--color-main-active);
+  border-radius: 10px;
+  resize: none;
+}
+
+.inputStatus {
+  visibility: hidden;
+}
+
+.formText {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-main-active);
+}
+
+.errormessege {
+  color: var(--color-error)
+}

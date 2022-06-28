@@ -1,0 +1,106 @@
+.tableNote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 10px;
+  background-color: var(--color-white);
+}
+
+.tableNoteList {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.tableNoteListItem {
+  display: block;
+  height: auto;
+  width: 25%;
+  color: var(--color-black);
+  word-wrap: break-word;
+}
+
+.tableNoteListItem:not(:first-child) {
+  padding-left: 10px;
+}
+
+.tableNoteListItem:not(:last-child) {
+  padding-right: 10px;
+  border-right: 1px solid var(--color-main);
+}
+
+
+.tableNote15 {
+  width: 15%;
+}
+
+.tableNote20 {
+  width: 20%;
+}
+
+.tableNote50 {
+  width: 50%;
+}
+
+.tableNoteStatus {
+  display: flex;
+  align-items: center;
+}
+.tableNoteStatusSvg {
+  margin-right: 5px;
+}
+
+.tableNoteStatusSpanNo {
+  max-width: 100px;
+  font-weight: 600;
+  color: var(--color-error);
+  line-height: 14px;
+}
+
+.tableNoteStatusSpanDo {
+  max-width: 100px;
+  font-weight: 600;
+  color: var(--color-main-active);
+  line-height: 14px;
+}
+
+.ItemCaption {
+  display: none;
+}
+
+@media (max-width: 740px) {
+  .ItemCaption {
+    display: block;
+    font-size: 12px;
+    color: var(--color-subtext);
+  }
+
+  .tableNoteList {
+    display: block;
+  }
+
+  .tableNoteListItem {
+    margin-bottom: 4px;
+    width: 100% !important;
+  }
+
+  .tableNoteListItem:not(:first-child) {
+    padding-left: 0;
+  }
+
+  .tableNoteListItem:not(:last-child) {
+    padding-right: 0;
+    border-right: 0;
+  }
+
+  .tableNoteStatusSpanDo {
+    max-width: fit-content;
+  }
+
+  .tableNoteStatusSpanNo {
+    max-width: fit-content;
+  }
+}

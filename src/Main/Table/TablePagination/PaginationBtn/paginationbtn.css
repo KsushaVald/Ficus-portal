@@ -1,0 +1,35 @@
+.paginationitem {
+  margin-right: 10px;
+}
+
+.pagintaionBtn {
+  width: 24px;
+  height: 24px;
+  padding: 2px;
+  text-align: center;
+  font-size: 12px;
+  color: var(--color-main-active);
+  border: 0;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  cursor: pointer;
+  transition-property: color, background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+
+.pagintaionBtn:hover {
+  background-color: var(--color-main-hover);
+}
+
+.pagintaionBtn:active {
+  color: var(--color-white);
+  background-color: var(--color-main-active);
+}
+
+.pagintaionBtn:disabled{
+  color: var(--color-white);
+  background-color: var(--color-main-active);
+  cursor: auto;
+}

@@ -1,0 +1,38 @@
+.headerblock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  margin-bottom: 80px;
+}
+
+.header {
+  margin-right: 40px;
+  font-size: 42px;
+  font-weight: 400;
+}
+
+.subheader {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 300;
+  color: var(--color-main);
+}
+
+
+@media (max-width: 740px) {
+  .headerblock {
+    flex-direction: column;
+    margin-bottom: 0;
+    align-items: baseline;
+  }
+
+  .subheader {
+    display: none;
+  }
+
+  .header {
+    margin-bottom: 10px;
+    font-size: 36px;
+  }
+}

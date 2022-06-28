@@ -1,0 +1,33 @@
+.authForm {
+  width: 100%;
+}
+
+.authInput {
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 100%;
+  font-size: 16px;
+  color: var(--color-black);
+  border: 1px solid var(--color-main-active);
+  border-radius: 10px;
+}
+
+.authLabel {
+  display: block;
+  margin-bottom: 5px;
+  color: var(--color-main);
+}
+
+.formBtn{
+  margin-bottom: 20px;
+}
+
+.formText {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--color-main-active);
+}
+
+.errormessege {
+  color: var(--color-error)
+}
