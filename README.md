@@ -5,19 +5,19 @@ React application
 
 Структура проекта
 
-src/img - изображения проект
-src/Header - содержится header с заголовком и компонент UserBlock
-src/Header/UserBlock - блок, который рендерится при авторизации пользователя (изображение и имя пользователя).
-src/Main - содержит основной контент приложения.
-src/Main/Table - компонент, содержащий список задач, оформленный ввиде таблицы.
-src/Main/Table/TableHeader - компонент, содержащий заголовок таблицы.
-src/Main/Table/TableNote - компонент, содержащий запись таблицы.
-src/Main/Table/TablePagination -  пагинация таблицы.
-src/Modal - создаёт модальное окно.
-src/Modal/AuthForm - форма для авторизации пользователя.
-src/Modal/ChangeForm - форма для изменения статуса/текста задачи.
-src/Modal/CreateTaskForm - форма для создание новой задачи.
-src/store - содержит логику Readux.
+- src/img - изображения проект.
+- src/Header - содержится header с заголовком и компонент UserBlock.
+- src/Header/UserBlock - блок, который рендерится при авторизации пользователя (изображение и имя пользователя).
+- src/Main - содержит основной контент приложения.
+- src/Main/Table - компонент, содержащий список задач, оформленный ввиде таблицы.
+- src/Main/Table/TableHeader - компонент, содержащий заголовок таблицы.
+- src/Main/Table/TableNote - компонент, содержащий запись таблицы.
+- src/Main/Table/TablePagination -  пагинация таблицы.
+- src/Modal - создаёт модальное окно.
+- src/Modal/AuthForm - форма для авторизации пользователя.
+- src/Modal/ChangeForm - форма для изменения статуса/текста задачи.
+- src/Modal/CreateTaskForm - форма для создание новой задачи.
+- src/store - содержит логику Readux.
 
 При разрешении меньше 740px таблица преобразуется в список карточек.
 
@@ -26,4 +26,4 @@ src/store - содержит логику Readux.
 Сборка для production: npm run build:prod (результат в папке dist).
 Сборка для development: 
          - npm run build:dev (результат в папке dist);
-				 - npm run dev (запускает webpack-dev-server).
+	 - npm run dev (запускает webpack-dev-server).
