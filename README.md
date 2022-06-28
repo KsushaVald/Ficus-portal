@@ -20,6 +20,7 @@ React application
 - src/store - содержит логику Readux.
 
 При разрешении меньше 740px таблица преобразуется в список карточек.
+Ссылка на хостинг http://ficusportal.kvald.tw1.ru/
 
 Сборка для production: 
 
